@@ -1,0 +1,25 @@
+{
+  "name": "service.core",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.4.5",
+    "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/plugin-i18n": "4.4.5",
+    "pg": "8.6.0"
+  },
+  "strapi": {
+    "uuid": "0516fc85-d75c-46a4-ba59-5719e04ccf0b"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  }
+}
